@@ -6,7 +6,7 @@ task.spawn(function()
         pcall(function()
             game:GetService("StarterGui"):SetCore("SendNotification", {
                 Title = "Akses Ditolak",
-                Text = "Script ini hanya bisa dijalankan di Violence Discrtic!",
+                Text = "Only Violence Discrtic!",
                 Duration = 5
             })
         end)
